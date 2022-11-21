@@ -34,9 +34,9 @@ class HandBagScreen extends StatelessWidget {
             itemCount: bagList?.length,
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
-                crossAxisSpacing: 5,
+                crossAxisSpacing: 10,
                 mainAxisSpacing: 10,
-                childAspectRatio: 2 / 3),
+                childAspectRatio: 3 / 4),
             itemBuilder: ((context, index) {
               final list = bagList?[index];
        

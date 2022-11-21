@@ -99,6 +99,7 @@ class ShoppingCartScreen extends StatelessWidget {
                 ),
               ),
               TabBar(
+                isScrollable: true,
                   indicatorColor: Colors.black,
                   labelColor: Colors.black,
                   indicatorWeight: 1,
